@@ -11,7 +11,7 @@ int main() {
         string curr = arr[i];
 
         if(curr >= "0" && curr <= "9") {
-            st.push(stoi(curr));     // stoi -> conversion of string to integer
+            st.push(stoi(curr));    
         }
         else {
             int val1 = st.top(); 
@@ -32,3 +32,4 @@ int main() {
     cout << "answer is : " << st.top();
     return 0;
 }
+
