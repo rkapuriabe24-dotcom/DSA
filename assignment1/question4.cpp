@@ -2,31 +2,31 @@
 using namespace std;
 
 int main() {
-    //PART A
-    // int arr[100];
-    // int n;
+    PART A
+     int arr[100];
+     int n;
 
-    // cout << "enter size of array " << endl;
-    // cin >> n;
-    // cout << "enter array" << endl;
-    // for(int i=0; i<n; i++){
-    //     cin >> arr[i];
-    // }
-    // for (int i = 0; i < n/2; i++){
-    //     swap(arr[i], arr[n-i-1]);
-    // }
-    // for (int i = 0; i < n; i++){
-    //     cout << arr[i] << " ";
-    // }
-    // cout << endl;
+     cout << "enter size of array " << endl;
+     cin >> n;
+     cout << "enter array" << endl;
+     for(int i=0; i<n; i++){
+         cin >> arr[i];
+     }
+     for (int i = 0; i < n/2; i++){
+         swap(arr[i], arr[n-i-1]);
+     }
+     for (int i = 0; i < n; i++){
+         cout << arr[i] << " ";
+     }
+     cout << endl;
 
     
     // PART B
-    // int a[100][100], b[100][100], c[100][100];
-    // int r1, c1, r2, c2;
-    // cout << "Enter rows & cols of first matrix: ";
-    // cin >> r1 >> c1;
-    // cout << "Enter rows & cols of second matrix: ";
+     int a[100][100], b[100][100], c[100][100];
+     int r1, c1, r2, c2;
+     cout << "Enter rows & cols of first matrix: ";
+     cin >> r1 >> c1;
+     cout << "Enter rows & cols of second matrix: ";
     // cin >> r2 >> c2;
 
     // if (c1 != r2) {
@@ -86,3 +86,4 @@ int main() {
 
     return 0;
 }
+
